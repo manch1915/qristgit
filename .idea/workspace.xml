@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43b0d8fe-f2d0-4ef2-a63a-942db7d10f49" name="Changes" comment="v1">
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/r_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/r_db.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="s" pattern="file[qristgit]:scss/*" />
+  </component>
+  <component name="ProjectId" id="23PZaruooRyVbiNYEG0W6QeucHR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\qristgit\images" />
+      <recent name="C:\xampp\htdocs\qristgit\js" />
+      <recent name="C:\xampp\htdocs\qristgit\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\qristgit" />
+      <recent name="C:\xampp\htdocs\qristgit\js" />
+      <recent name="C:\xampp\htdocs\qristgit\fonts" />
+      <recent name="C:\xampp\htdocs\qristgit\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43b0d8fe-f2d0-4ef2-a63a-942db7d10f49" name="Changes" comment="" />
+      <created>1641637751568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641637751568</updated>
+      <workItem from="1641637754948" duration="1710000" />
+      <workItem from="1641722434238" duration="325000" />
+      <workItem from="1641722793540" duration="3453000" />
+      <workItem from="1641733211312" duration="4207000" />
+      <workItem from="1641801083412" duration="5529000" />
+      <workItem from="1641826186059" duration="13726000" />
+      <workItem from="1641909144268" duration="6553000" />
+      <workItem from="1641917473927" duration="6038000" />
+      <workItem from="1641990729266" duration="6330000" />
+      <workItem from="1642075903109" duration="6213000" />
+      <workItem from="1642168248511" duration="221000" />
+      <workItem from="1642169129611" duration="6529000" />
+      <workItem from="1642231004028" duration="13000" />
+      <workItem from="1642232712691" duration="99000" />
+      <workItem from="1642434169834" duration="4572000" />
+      <workItem from="1642506823063" duration="4135000" />
+      <workItem from="1642601852867" duration="5240000" />
+      <workItem from="1642685013898" duration="126000" />
+      <workItem from="1643273732201" duration="1855000" />
+      <workItem from="1643360283391" duration="1217000" />
+      <workItem from="1643474993496" duration="6064000" />
+      <workItem from="1643533682010" duration="1707000" />
+      <workItem from="1643543260441" duration="4784000" />
+      <workItem from="1643703805083" duration="981000" />
+      <workItem from="1643817073789" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/qristgit" />
+    </ignored-roots>
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

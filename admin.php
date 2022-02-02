@@ -23,7 +23,7 @@ require 'includes/r_db.php';
 <body>
 
 <div class="container">
-    <?php if (@$_SESSION['main'] == 'admin') : ?>
+    <?php if (@$_SESSION['main'] == 'asd') : ?>
         <form action="file_upload.php" method="post" class="form" enctype='multipart/form-data'>
            <button type="button" class="btn btn-secondary" style="display: block;margin: 0 auto;" id="mejtex">Մեջտեղ</button>
             <div class="row justify-content-center mt-4">
