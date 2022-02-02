@@ -52,10 +52,11 @@ $desc = implode('',$arr);
 preg_match('~<img.+>~',$desc, $firstImg);
 $firstImg =  implode('',$firstImg);
 $getted = preg_replace('~<img class=".+" src="images/(.+\.[a-zA-Z]+)">~','$1',$firstImg);
-$posts = R::dispense('posts');
-$posts->title = $_POST['title'];
-$posts->description = $desc;
-$posts->general_img = $getted;
-R::store($posts);
+$posts = $date->prepare("INSERT INTO posts(title, description, general_img) VALUES (:title, :desc, :getted)");
+$posts->execute([
+    "title" => $_POST['title'],
+   "description" => $desc,
+   "general_img" => $getted
+]);
 header('Location: admin.php');
 die();

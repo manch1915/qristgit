@@ -16,7 +16,7 @@ require 'includes/r_db.php';
     <link href='https://css.gg/css' rel='stylesheet'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/admin.css">
-    <title>living like saints Admin</title>
+    <title>living like Admin</title>
 
 </head>
 

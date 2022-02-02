@@ -267,6 +267,7 @@ nav {
 
 .dspnone {
   display: none;
+  z-index: 2;
 }
 
 .dspblock {
@@ -282,6 +283,12 @@ nav {
 .slider_item {
   display: flex !important;
   justify-content: center;
+}
+
+col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
 }
 
 .index_header_slider {

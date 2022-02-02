@@ -12,6 +12,7 @@ require 'includes/r_db.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="livelikesaints, poqrik srber, Սուրբ մանուկներ, Սրբեր, մանուկ Սրբեր">
     <meta name="description" content="Կայք մանուկ Սրբերի մասին">
+    <link rel = "icon" href ="images/logo.svg" type = "image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@ require 'includes/r_db.php';
 </head>
 
 <body>
-<?php include 'header.php'?>
+<?php include '_header.php' ?>
     <main>
         <div class="container">
             <div class="zakrep" data-aos="zoom-out-right">
@@ -35,15 +36,14 @@ require 'includes/r_db.php';
         <div class="container">
                 <div class="index_header_slider">
                     <?php
-                    $last_posts = R::find('posts','ORDER BY `id` DESC');
-                    ?>
-                    <?php
-                    foreach ($last_posts as $last_post){
+                    $last_posts = $date->prepare('SELECT * FROM `posts`');
+                    $last_posts->execute();
+                    while ($row = $last_posts->fetch(PDO::FETCH_OBJ)){
                     ?>
                     <div class="slider_item">
                         <div class="post">
-                            <a href="post.php?id=<?php echo $last_post->id ?>"><?php echo $last_post->title ?></a>
-                            <img src="images/<?php echo $last_post->general_img ?>" alt="">
+                            <a href="post.php?id=<?php echo $row->id ?>"><?php echo $row->title ?></a>
+                            <img src="images/<?php echo $row->general_img ?>" alt="">
                         </div>
                     </div>
                     <?php } ?>
@@ -53,7 +53,7 @@ require 'includes/r_db.php';
     </main>
 
     <?php
-        include 'footer.php';
+        include '_footer.php';
     ?>
 
     <script src="js/jquery3.6.0.min.js"></script>
